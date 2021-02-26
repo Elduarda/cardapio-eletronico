@@ -1,0 +1,133 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+/* corpo */
+
+body{
+    background: #ffd670;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+a:link, a:visited{
+    color: black;
+}
+
+a:hover{
+    color: yellow;
+
+}
+
+a{
+    text-decoration: underline;
+}
+
+h1{
+    color: white;
+    background: rgb(39, 38, 38);
+    width: 400px;
+    margin: auto;
+    box-shadow: 2px 2px rgb(102, 102, 102);
+}
+
+h2{
+    color: white;
+    text-shadow: 2px 2px rgb(158, 158, 158);
+    text-align: left;
+    
+    margin-top: 10px;
+}
+
+#logo{
+    background: #ff9770;
+    text-align: center;
+    padding: 40px;
+    text-decoration: white;
+
+}
+
+#container{
+    height: 200px;
+    width: 800px;
+    background-color: aliceblue;
+    border-radius: 16px;
+    margin-top: 20px;
+    box-shadow: 3px 2px rgb(116, 116, 116);
+}
+
+#imagem{
+    padding: 25px;
+    margin-left: 20px; 
+    float: left;
+}
+
+#conteudo-produto{
+    text-align: center;
+    float: right;
+    background-color: #ff9770 ;
+    padding: 10px;
+    width: 200px;
+    margin-left: 20px;
+}
+
+#interacao{
+    float: right;
+    padding: 10px;
+    width: 200px;
+    margin-left: 20px;
+}
+#principal{
+    width: 1300px;
+    margin: 0 auto;
+    padding: 15px;
+
+    /*border: 1px solid blue;*/
+}
+
+#posts{
+    width: 800px;
+    float: left;
+    
+    /*border: 1px solid brown;*/
+    
+}
+
+#lateral{
+    width: 400px;
+    float: right;
+    margin-top: 60px;
+    margin-right: 40px;
+    /*border: 1px solid green;*/
+}
+
+/*
+#posts, #lateral{
+    background: red;
+}
+*/
+
+.conteudo-lateral{
+    background: white;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 16px;
+    box-shadow: 3px 2px rgb(116, 116, 116);
+}
+
+.rede-social{
+    padding: 5px;
+}
+
+.texto-postagem-lateral{
+    
+    padding: 10px;
+    /*border-bottom: 1px dotted #CCC;*/
+}
+
+#rodape{
+    clear: both;
+    text-align: center;
+    background: #CCC;
+}
